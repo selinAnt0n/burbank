@@ -1,0 +1,100 @@
+@media screen and (max-width:480px){
+	#wrapper{width: 480px;}
+	.holder-header{
+		width: 480px;
+		margin:0; 
+	}
+	.logo{
+		float: left;
+		margin-left:15px; 
+	}
+	header{
+		width: 480px;
+		background: linear-gradient(to right , #412953, #412953)no-repeat;
+		background: -moz-linear-gradient(to right , #412953, #412953)no-repeat;
+		background: -webkit-linear-gradient(to right , #412953, #412953)no-repeat;
+		background: -ms-linear-gradient(to right , #412953, #412953)no-repeat;
+		background: -o-linear-gradient(to right , #412953, #412953)no-repeat;
+		background-position: 100% 0;
+		background-size: 100% 51px;
+	}
+	.header-bottom{display: none;}
+	.header-top{display: none;}
+	.logo{margin-top:0; }
+	#nav{display: block;}
+	.gallery{width: 480px;}
+	.gallery div.wrap{width: 480px;}
+	.gallery ul.list>li {width: 480px;}
+	.gallery ul.list>li img{margin: 0 0 0 -320px;}
+	.gallery-two ul.list>li img{margin: 0 0 0 -485px;}
+	.gallery div.wrap ul.list>li .orange{width: 480px;}
+	.what{width: 480px;}
+	.switch-holder{
+		bottom:135px;
+		width: 100%;
+		left:auto;
+	}
+	ul.switcher{
+		position: relative;
+		left: 30%;
+	}
+	ul.switcher li a{
+		width: 36px;
+		height: 36px;
+		background-color: #fff;
+	}
+	a.prev,
+	a.next{
+		background:url(../img/gallery-prev-480.png)no-repeat 50% 50%;
+		width: 25px;
+		height: 31px;
+	}
+	a.next{float: right;}
+	.all-info-holder{width: 480px;}
+	.all-info{width: 480px;}
+	.gallery4{display: none;}
+	.box_480{display: block;}
+	.gallery-holder-info{border-bottom: none;}
+	.holder-img1{
+		height: auto;
+		width: 449px;
+		margin:0 auto;
+		float: none;
+		border:none;
+		padding:0;
+		display: block; 
+	}
+	.holder-img1 img{width: 449px;}
+	.info2{
+		width: 480px;
+		padding: 0px 0 31px 0;
+	}
+	.info2-holder{
+		width: 480px;
+		background-position: 74% 100%;
+		margin-bottom: 12px;
+	}
+	.info2 h5{display: none;}
+	.info2-box{display: none;}
+	.info2>a{display: none;}
+	.gallery-two .switch-holder{
+		display: block;
+		bottom: -55px;
+	}
+	.footer-bottom{display: none;}
+	footer{
+		width: 480px;
+		padding: 0;
+	}
+	.footer-left{display: none;}
+	.footer-center{display: none;}
+	.footer_480{
+		display: block;
+		text-align: left;
+	}
+/*
+LIST_________________________________________________________________*/
+	.list-holder-info{display: none;}
+	.list-480-top{display: block;}
+	.list-480-bot-holder{display: block;}
+}
